@@ -1,7 +1,116 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    border-bottom: 10px solid #242424;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+a[href] {
+    color: white;
+}
+
+nav {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header {
+    color: white;
+    background: rgb(76, 105, 76);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.head {
+    text-align: center;
+}
+
+section {
+    border-bottom: 1px dotted black;
+}
+
+.headshot {
+    display: flex;
+    background: white;
+    width: 100%;
+}
+
+.msu {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.me {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.comartsci {
+    margin-top: 220px;
+    margin-right: 150px;
+}
+
+.experience {
+    
+}
+
+.job {
+    margin-left: 100px;
+}
+
+.work_logo {
+    margin-right: 5px;
+}
+
+.experience {
+    padding: 20px;
+}
+
+.education {
+    padding: 20px;
+}
+
+.education_img {
+    margin-right: 5px;
+}
+
+h3 {
+    color: rgb(76, 105, 76);
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .qr {
     float: right;
 }
 
 .work_logo {
     float: left;
+}
+
+.education_img {
+    float: left;
+}
+
+.overview {
+    padding: 20px;
 }
